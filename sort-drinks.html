@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>All Products - Brew'Tiful Cakery</title>
+   <link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+   
+   <div class="container">
+       <div class="navbar">
+           <div class="logo">
+            <a href="ihome.html"><img src="images/logo.JPEG" width="140px"></a>
+           </div>
+           <nav>
+               <ul id="MenuItems">
+                <li><a href="account.html">Account</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </nav>
+           <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+           <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+       </div>
+   </div>
+
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>All Drinks</h2>
+            <form name="cofbreed">
+                <select name="sortMenu" id="sortMenu">
+                    <option value="nothing" selected="selected">Default  Sorting</option>
+                    <option value="sort-popularity.html">Sort by popularity</option>
+                    <option value="sort-drinks.html">Sort by drinks</a></option>
+                    <option value="sort-cakes.html">Sort by cakes</option>
+                    <option value="sort-pastries.html">Sort by pastries</option>
+                </select>
+            </form>
+        </div>
+
+
+    <div class="row">
+        <div class="col-4">
+            <a href="product-details.html"><img src="images/product-9.jpeg"></a>
+            <a href="product-details.html"><h4>Iced Latte</h4></a>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM13.00</p>
+        </div>
+        <div class="col-4">
+            <a href="americano-details.html"><img src="images/product-12.jpeg"></a>
+            <a href="americano-details.html"><h4>Hot Americano</h4></a>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>RM9.00</p>
+        </div>
+        <div class="col-4">
+            <a href="mocha-details.html"><img src="images/product-1.jpeg"></a>
+            <a href="mocha-details.html"><h4>Iced Mocha Latte</h4></a>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM16.00</p>
+        </div>
+        <div class="col-4">
+            <a href="espresso-details.html"><img src="images/product-5.jpeg"></a>
+            <a href="espresso-details.html"><h4>Espresso Affogato</h4></a>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM13.00</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <a href="brownie-details.html"><img src="images/product-7.jpeg"></a>
+            <a href="brownie-details.html"><h4>Japanese Brownie Latte</h4></a>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM15.90</p>
+        </div>
+        <div class="col-4">
+            <a href="matcha-details.html"><img src="images/product-14.jpeg"></a>
+            <a href="matcha-details.html"><h4>Matcha Latte</h4></a>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>RM15.00</p>
+        </div>
+        <div class="col-4">
+            <a href="cappuccino-details.html"><img src="images/product-16.jpeg"></a>
+            <a href="cappuccino-details.html"><h4>Hot Cappuccino</h4></a>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>RM12.00</p>
+        </div>
+    </div> 
+    <br><br><br><br> 
+    <hr>
+    <br> 
+<!-- footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App</h3>
+                    <p>Download App for Android and ios mobile phones</p>
+                    <div class="app-logo">
+                        <a href="https://play.google.com/store?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-my-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS|ONSEM_kwid_43700065967604817_creativeid_541258268158_device_c&gclid=Cj0KCQiA6NOPBhCPARIsAHAy2zBWwABMfsM75KsyO9uHKNgcgGM5DZ8l0y7mrQWFqaJf0rcmqWIkoUYaAsDYEALw_wcB"><img src="images/play-store.png"></a>
+                        <a href="https://www.apple.com/my/app-store/"><img src="images/app-store.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-2.JPEG">
+                    <p>Our Purpose Is To Offer A Diverse Menu That Will Attract Customers.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <a href="https://www.instagram.com/brewtiful_cakery/"target="_blank"><li> Instagram</li></a>
+                        <a href="https://twitter.com/BrewCakery"target="_blank"><li>Twitter</li></a>
+                        <a href="https://www.youtube.com/watch?v=OdSVN3ub2C4"target="_blank"><li>YouTube</li></a>
+                        <a href="https://wa.link/dpq19w"target="_blank"><li>WhatsApp</li></a>
+                    </ul> 
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Brew'Tiful Cakery</p>
+        </div>
+    </div>
+<!-- js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+
+       function menutoggle(){
+           if(MenuItems.style.maxHeight == "0px")
+           {
+                MenuItems.style.maxHeight = "200px";
+           }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+       }
+       var urlMenu = document.getElementById('sortMenu');
+        urlMenu.onchange = function(){
+            var userOption = this.options[this.selectedIndex];
+            if (userOption.value != "nothing") {
+                window.open(userOption.value, "Sorting Page");
+            }
+        }
+    </script>
+</body>
+ </html>
